@@ -1,0 +1,63 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  background-color: hsl(275, 100%, 97%);
+  background-image: url("assets/images/background-pattern-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  width: 90%;
+  margin: 15% auto 0;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  padding: 7% 5%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header h1 {
+  margin-top: 0;
+  margin-left: 24px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  color: hsl(292, 42%, 14%);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.accordion-icon {
+  background-image: url("assets/images/icon-plus.svg");
+  background-size: cover;
+}
+
+.panel {
+  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+p {
+  color: hsl(292, 16%, 49%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
