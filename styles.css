@@ -4,7 +4,7 @@ html {
   margin: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
-  background-image: url("../../assets/images/background-pattern-mobile.svg");
+  background-image: url("assets/images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: hsl(275, 100%, 97%);
@@ -54,7 +54,7 @@ button {
 }
 
 .accordion-icon {
-  background-image: url("../../assets/images/icon-plus.svg");
+  background-image: url("images/icon-plus.svg");
   width: 5%;
 }
 
@@ -63,7 +63,7 @@ button {
 }
 
 .panel-trigger.active .accordion-icon {
-  background-image: url("../../assets/images/icon-minus.svg");
+  background-image: url("images/icon-minus.svg");
 }
 
 .panel {
@@ -93,7 +93,7 @@ p {
 @media screen and (min-width: 600px) {
   body,
   html {
-    background-image: url("../../assets/images/background-pattern-desktop.svg");
+    background-image: url("images/background-pattern-desktop.svg");
     display: grid;
     place-items: center;
   }
