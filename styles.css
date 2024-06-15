@@ -59,8 +59,11 @@ button {
 
 .active {
   background-color: hsl(0, 0%, 100%);
-  background-image: "url('assets/images/icon-minus.svg')";
 }
+
+/* .active:after {
+  background: url("assets/images/icon-minus.svg");
+} */
 
 .panel {
   border-bottom: 1px solid hsl(275, 100%, 97%);

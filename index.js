@@ -6,8 +6,12 @@ let i;
 for (i = 0; i < acc.length; i++) {
   acc[i].onclick = function () {
     this.classList.toggle("active");
+
+    // for (let j = 0; j < acc.length; j++) {
+    //   if (j !== i) acc[j].nextElementSibling.style.maxHeight = null;
+    // }
+
     let panel = this.nextElementSibling;
-    let img = document.body.querySelector(".accordion-icon");
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
     } else {
