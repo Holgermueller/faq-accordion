@@ -4,7 +4,7 @@ html {
   margin: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
-  background-image: url("assets/images/background-pattern-mobile.svg");
+  background-image: url("images/background-pattern-mobile.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: hsl(275, 100%, 97%);
